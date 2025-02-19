@@ -1,10 +1,11 @@
-package com.prabirkundu.fragementdatapass
+package com.prabirkundu.fragementdatapass.FregmantDataPass
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.prabirkundu.fragementdatapass.Fragemnt.FirstFragment
-import com.prabirkundu.fragementdatapass.Fragemnt.SecondFragment
+import com.prabirkundu.fragementdatapass.FregmantDataPass.Fragemnt.FirstFragment
+import com.prabirkundu.fragementdatapass.FregmantDataPass.Fragemnt.SecondFragment
+import com.prabirkundu.fragementdatapass.R
 
 class MainActivity : AppCompatActivity(), FirstFragment.OnDataPass{
     private val TAG = "MainActivity"

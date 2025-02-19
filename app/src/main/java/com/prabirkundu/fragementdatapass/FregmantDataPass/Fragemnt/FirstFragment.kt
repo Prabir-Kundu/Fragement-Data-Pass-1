@@ -1,4 +1,4 @@
-package com.prabirkundu.fragementdatapass.Fragemnt
+package com.prabirkundu.fragementdatapass.FregmantDataPass.Fragemnt
 
 import android.content.Context
 import android.os.Bundle

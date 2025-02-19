@@ -1,4 +1,4 @@
-package com.prabirkundu.fragementdatapass.Fragemnt
+package com.prabirkundu.fragementdatapass.FregmantDataPass.Fragemnt
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

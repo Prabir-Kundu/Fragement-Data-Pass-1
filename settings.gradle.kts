@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Fragement Data Pass"
+rootProject.name = "Multiple concepts in one project"
 include(":app")
  
