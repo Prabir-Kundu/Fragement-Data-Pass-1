@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.prabirkundu.fragementdatapass.FregmantDataPass.MainActivity
+import com.prabirkundu.fragementdatapass.RecyclerView_with_DiffUtil.RecyclerViewDiffUtilActivity
 import com.prabirkundu.multipleconceptsinoneproject.model.Item
 
 
@@ -37,6 +38,9 @@ class MainItemAdapter(
         holder.itemView.setOnClickListener {
             if(position == 0){
                 val intent = Intent(context,MainActivity::class.java)
+                context.startActivity(intent)
+            } else if (position == 1){
+                val intent = Intent(context,RecyclerViewDiffUtilActivity::class.java)
                 context.startActivity(intent)
             }
         }

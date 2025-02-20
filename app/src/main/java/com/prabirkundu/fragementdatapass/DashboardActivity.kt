@@ -14,7 +14,7 @@ class DashboardActivity : AppCompatActivity() {
     lateinit var binding: ActivityDashboardBinding
     private val items = mutableListOf(
         Item(1, "Fragment Data Pass"),
-        Item(2, "Item 2"),
+        Item(2, "Implement a RecyclerView with DiffUtil and allow items to be dynamically updated."),
         Item(3, "Item 3")
     )
     lateinit var adapter: MainItemAdapter

@@ -13,11 +13,13 @@
         android:theme="@style/Theme.FragementDataPass"
         tools:targetApi="31">
         <activity
+            android:name=".RecyclerView_with_DiffUtil.RecyclerViewDiffUtilActivity"
+            android:exported="false" />
+        <activity
             android:name=".FregmantDataPass.MainActivity"
-            android:exported="true">
-
-        </activity>
-        <activity android:name=".DashboardActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".DashboardActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
